@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dark Mode App UI</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="phone-shell">
+      <header class="top-bar">
+        <div>
+          <p class="eyebrow">Welcome back</p>
+          <h1>Dashboard</h1>
+        </div>
+        <button class="avatar" aria-label="User menu">AK</button>
+      </header>
+
+      <section class="hero-card">
+        <p>Today’s Focus</p>
+        <h2>Design sprint review</h2>
+        <span>4:00 PM • 45 mins</span>
+      </section>
+
+      <section class="stats-grid" aria-label="Quick stats">
+        <article class="stat-card">
+          <p>Tasks</p>
+          <strong>18</strong>
+        </article>
+        <article class="stat-card">
+          <p>Completed</p>
+          <strong>12</strong>
+        </article>
+        <article class="stat-card">
+          <p>In Progress</p>
+          <strong>4</strong>
+        </article>
+        <article class="stat-card">
+          <p>Overdue</p>
+          <strong>2</strong>
+        </article>
+      </section>
+
+      <section class="list-card">
+        <div class="section-title">
+          <h3>Recent activity</h3>
+          <button>View all</button>
+        </div>
+        <ul>
+          <li>
+            <span class="dot success"></span>
+            UI Prototype updated
+            <time>10m ago</time>
+          </li>
+          <li>
+            <span class="dot info"></span>
+            New comment from product
+            <time>1h ago</time>
+          </li>
+          <li>
+            <span class="dot warn"></span>
+            Deadline reminder
+            <time>3h ago</time>
+          </li>
+        </ul>
+      </section>
+
+      <nav class="bottom-nav" aria-label="Main navigation">
+        <button class="active">Home</button>
+        <button>Tasks</button>
+        <button>Calendar</button>
+        <button>Profile</button>
+      </nav>
+    </main>
+  </body>
+</html>
